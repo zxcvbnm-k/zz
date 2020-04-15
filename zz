@@ -7,7 +7,7 @@ var pass1 = prompt('你猜','');
 while (testV < 1000) {   
 if (!pass1)   
 history.go(-1);   
-if (pass1 == "桑") {//初始密码123   
+if (pass1 == "sang") {//初始密码123   
 alert('猜对了!!！');   
 break;   
 }   
@@ -24,7 +24,7 @@ document.write(password());
 </head>
 
 <body>
-<p style="color:red; font-size:20;">您怎么这么棒！！！又又又...</p>
+<p style="color:blue; font-size:20;">您怎么这么棒！！！又又又...</p>
 </boody>
 </html>
 
